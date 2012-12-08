@@ -16,6 +16,7 @@
 		0E57C0C3166C21DD00B76FF3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E57C0C2166C21DD00B76FF3 /* Default.png */; };
 		0E57C0C5166C21DD00B76FF3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E57C0C4166C21DD00B76FF3 /* Default@2x.png */; };
 		0E57C0C7166C21DD00B76FF3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E57C0C6166C21DD00B76FF3 /* Default-568h@2x.png */; };
+		0E57C0CF166C222100B76FF3 /* KCMemoryAccessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E57C0CE166C222100B76FF3 /* KCMemoryAccessTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		0E57C0C2166C21DD00B76FF3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0E57C0C4166C21DD00B76FF3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0E57C0C6166C21DD00B76FF3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0E57C0CD166C222100B76FF3 /* KCMemoryAccessTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMemoryAccessTests.h; sourceTree = "<group>"; };
+		0E57C0CE166C222100B76FF3 /* KCMemoryAccessTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMemoryAccessTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				0E57C0BF166C21DD00B76FF3 /* KCAppDelegate.h */,
 				0E57C0C0166C21DD00B76FF3 /* KCAppDelegate.m */,
 				0E57C0B7166C21DD00B76FF3 /* Supporting Files */,
+				0E57C0CD166C222100B76FF3 /* KCMemoryAccessTests.h */,
+				0E57C0CE166C222100B76FF3 /* KCMemoryAccessTests.m */,
 			);
 			path = MemoryAccessTests;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			files = (
 				0E57C0BD166C21DD00B76FF3 /* main.m in Sources */,
 				0E57C0C1166C21DD00B76FF3 /* KCAppDelegate.m in Sources */,
+				0E57C0CF166C222100B76FF3 /* KCMemoryAccessTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
